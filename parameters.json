@@ -1,0 +1,38 @@
+[
+  {
+    "ParameterKey": "LogGroupName",
+    "ParameterValue": "/aws/rds/instance/spyne-prod-rds/slowquery"
+  },
+  {
+    "ParameterKey": "SourceEmail",
+    "ParameterValue": "devops@yourcompany.com"
+  },
+  {
+    "ParameterKey": "DestinationEmails",
+    "ParameterValue": "dev-team@yourcompany.com,dba@yourcompany.com"
+  },
+  {
+    "ParameterKey": "SESRegion",
+    "ParameterValue": "us-east-1"
+  },
+  {
+    "ParameterKey": "ScheduleExpression",
+    "ParameterValue": "cron(30 4 ? * MON *)"
+  },
+  {
+    "ParameterKey": "LookbackDays",
+    "ParameterValue": "7"
+  },
+  {
+    "ParameterKey": "QueryLimit",
+    "ParameterValue": "20"
+  },
+  {
+    "ParameterKey": "LambdaMemorySize",
+    "ParameterValue": "256"
+  },
+  {
+    "ParameterKey": "LambdaTimeout",
+    "ParameterValue": "120"
+  }
+]
