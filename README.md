@@ -1,3 +1,7 @@
+```
+Enhanced Version With MongoDB Atlas Query Insights (Performance Advisor): https://github.com/dcgmechanics/db-slowlogs-lambda-mail-automatation
+```
+
 # RDS Slow Query Report — Automated Weekly Email
 
 Deploys a serverless pipeline that automatically queries your RDS slow query logs every week, builds a styled HTML report of the **Top N slowest queries**, and emails it via Amazon SES.
